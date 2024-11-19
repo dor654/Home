@@ -17,10 +17,10 @@ function App() {
     <div className="min-h-screen bg-gray-50">
       <Navbar cartCount={cartCount} />
       <Hero />
-
+      <DealsSection />
       <Categories />
       <ProductGrid onAddToCart={handleAddToCart} />
-      <DealsSection />
+
       <Footer />
     </div>
   );
